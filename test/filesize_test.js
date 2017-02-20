@@ -33,7 +33,7 @@ exports["filesize"] = {
 		test.equal(filesize(this.kilobyte, {round: 1}),                "1 KB",     "Should be '1 KB'");
 		test.equal(filesize(this.kilobyte, {round: 1, spacer: ""}),    "1KB",      "Should be '1KB'");
 		test.equal(filesize(this.kilobyte, {unix: true}),              "1K",       "Should be '1K'");
-		test.equal(filesize(this.kilobyte, {bits :true}),              "8 Kb",     "Should be '8 Kb'");
+		test.equal(filesize(this.kilobyte, {bits :true}),              "8 Kb",     "Should be '8 Kb '");
 		test.equal(filesize(this.kilobyte, {round: 1, bits: true}),    "8 Kb",     "Should be '8 Kb'");
 		test.equal(filesize(this.kilobyte, {unix: true, bits: true}),  "8K",       "Should be '8K'");
 		test.equal(filesize(this.kilobyte, {exponent: 0}),             "1024 B",   "Should be '1024 B'");
