@@ -6,10 +6,10 @@
   "author": "Jason Mulligan <jason.mulligan@avoidwork.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/avoidwork/filesize.js.git"
+    "url": "git://github.com/jeyson1802/filesize.js.git"
   },
   "bugs": {
-    "url": "https://github.com/avoidwork/filesize.js/issues"
+    "url": "https://github.com/jeyson1802/filesize.js/issues"
   },
   "license": "BSD-3-Clause",
   "main": "lib/filesize",
